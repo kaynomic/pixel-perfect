@@ -87,7 +87,7 @@ body {
 
   grid-template-columns: repeat(3, 33%);
   grid-template-rows: repeat(2, 50%);
-  margin: 0px 50px;
+  margin: 0px 80px;
 }
 
 .grid-ele {
@@ -135,4 +135,16 @@ padding: 10px;
   font-size: 12px;
   font-weight: 700;
   line-height: 16px;
+  display: flex;
+  align-items: center;
+  margin-left:80px;
+  margin-top: 40px;
+}
+
+.t-logo {
+  height: 25px;
+}
+
+.trending {
+  /* height: 500px; */
 }
