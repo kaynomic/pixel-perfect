@@ -82,6 +82,8 @@ body {
   font-size: large;
 }
 
+/* ***** Trending Section ***** */
+
 .trending-grid {
   display: grid;
 
@@ -93,41 +95,10 @@ body {
 .grid-ele {
   height: 130px;
   display: flex;
-  /* justify-content: center; */
 }
 
-.images {
-  border-radius: 50%;
-  height: 30px;
-}
-.top-row {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  height: 40px;
-}
-
-.middle-row {
-display: flex;
-align-items: center;
-margin: 0;
-}
-
-.bottom-row {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: smaller;
-  padding: 10px 0px;
-  display: block;
-}
-.top-mid-bot {
-margin-left: 25px;
-padding: 10px;
-}
-
-.num {
-  color: rgba(0, 0, 0, 0.15);
-  position: relative;
-  bottom: 5px;
+.t-logo {
+  height: 25px;
 }
 
 .trending-header {
@@ -141,10 +112,38 @@ padding: 10px;
   margin-top: 40px;
 }
 
-.t-logo {
-  height: 25px;
+.num {
+  color: rgba(0, 0, 0, 0.15);
+  position: relative;
+  bottom: 5px;
 }
 
-.trending {
-  /* height: 500px; */
+.top-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+}
+
+.images {
+  border-radius: 50%;
+  height: 30px;
+}
+
+.middle-row {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.bottom-row {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: smaller;
+  padding: 10px 0px;
+  display: block;
+}
+
+.top-mid-bot {
+  margin-left: 25px;
+  padding: 10px;
 }
