@@ -17,7 +17,7 @@ body {
 
 .logo {
     height: 50px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .nav-links {
@@ -36,6 +36,7 @@ body {
     color: white;
     height: 38px;
     width: 104.09px;
+    cursor: pointer;
 }
 
 /* ***** Header ***** */
@@ -44,13 +45,94 @@ body {
     display: flex;
     background-color: #FFC017;
     border-bottom: 1px solid black;
+    justify-content: space-between;
+    height: 460px;
 }
 
 .inner-header {
-    width: 455px;
+    width: fit-content;
     height: 550px;
+    margin-left: 80px;
 }
 
 .curious {
     font-size: 106px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    height: 60px;
+}
+
+.discover {
+  width: 390px;
+}
+
+.read-button {
+  background-color: black;
+  border-radius: 99em;
+  color: white;
+  height: 40px;
+  width: 185px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.m {
+  width: 400px;
+  font-weight: 450;
+  font-size: large;
+}
+
+.trending-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(2, 50%);
+  margin: 0px 50px;
+}
+
+.grid-ele {
+  height: 130px;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.images {
+  border-radius: 50%;
+  height: 30px;
+}
+.top-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+}
+
+.middle-row {
+display: flex;
+align-items: center;
+margin: 0;
+}
+
+.bottom-row {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: smaller;
+  padding: 10px 0px;
+  display: block;
+}
+.top-mid-bot {
+margin-left: 25px;
+padding: 10px;
+}
+
+.num {
+  color: rgba(0, 0, 0, 0.15);
+  position: relative;
+  bottom: 5px;
+}
+
+.trending-header {
+  color: rgb(41, 41, 41);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
 }
